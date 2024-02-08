@@ -1,0 +1,143 @@
+body {
+    padding: 20px;
+}
+
+:root {
+    --english: #FFFDE0;
+    --english_border: #FFF884;
+    --maths: #FFDFDF;
+    --maths_border: #FF7F7F;
+    --science: #E0F8F6;
+    --science_border: #84E6DD;
+    --history: #EFDFDF;
+    --history_border: #BF7F7F;
+    --geography: #EFEFE7;
+    --geography_border: #BFBF9F; 
+    --languages: #FFEFDF;
+    --languages_border: #FFBF7F;
+    --art: #FFDFFF;
+    --art_border: #FF7FFF;
+    --music: #F2FEFE;
+    --music_border: #CEFEFD;
+    --tech: #EFDFFF;
+    --tech_border: #BF7FFF;
+    --gifted: #FCF9FC;
+    --gifted_border: #F5E9F6;
+    --pdhpe: #E0FAE1;
+    --pdhpe_border: #85EE88;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+    background-color: #dddddd
+}
+
+.english {
+    background-color: var(--english);
+}
+
+.english:nth-child(odd) {
+    border-left: solid 4px var(--english_border)
+
+}
+
+.maths {
+    background-color: var(--maths);
+}
+
+.maths:nth-child(odd) {
+    border-left: solid 4px var(--maths_border)
+
+}
+
+.science {
+    background-color: var(--science);
+}
+
+.science:nth-child(odd) {
+    border-left: solid 4px var(--science_border)
+
+}
+
+.history {
+    background-color: var(--history);
+}
+
+.history:nth-child(odd) {
+    border-left: solid 4px var(--history_border)
+
+}
+
+.geographyy {
+    background-color: var(--geography);
+}
+
+.geography:nth-child(odd) {
+    border-left: solid 4px var(--geography_border)
+
+}
+
+.languages {
+    background-color: var(--languages);
+}
+
+.laguages:nth-child(odd) {
+    border-left: solid 4px var(--languages_border)
+
+}
+
+.art {
+    background-color: var(--art);
+}
+
+.art:nth-child(odd) {
+    border-left: solid 4px var(--art_border)
+
+}
+
+.music {
+    background-color: var(--music);
+}
+
+.music:nth-child(odd) {
+    border-left: solid 4px var(--music_border)
+
+}
+
+.tech {
+    background-color: var(--tech);
+}
+
+.tech:nth-child(odd) {
+    border-left: solid 4px var(--tech_border)
+
+}
+
+.gifted {
+    background-color: var(--gifted);
+}
+
+.gifted:nth-child(odd) {
+    border-left: solid 4px var(--gifted_border)
+
+}
+
+.pdhpe {
+    background-color: var(--pdhpe);
+}
+
+.pdhpe:nth-child(odd) {
+    border-left: solid 4px var(--phdpe_border)
+
+}
